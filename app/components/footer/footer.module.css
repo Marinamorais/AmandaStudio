@@ -1,0 +1,150 @@
+/* Estilos gerais para o footer */
+.site {
+    background: linear-gradient(90deg, #C95656, #ec6b6b, #dd6666); /* Gradiente de fundo */
+    padding: 45px 0 20px;
+    font-size: 15px;
+    line-height: 24px;
+    color: #fff; /* Cor do texto branca */
+  }
+  
+  .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff; /* Texto do copyright em branco */
+  }
+  
+  .site hr {
+    border-top-color: #bbb;
+    opacity: 0.5;
+  }
+  
+  .site hr.small {
+    margin: 20px 0;
+  }
+  
+  .site h6 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    margin-top: 5px;
+    letter-spacing: 2px;
+  }
+  
+  .site a {
+    color: #fff; /* Links em branco */
+    margin-left: 20px;
+  }
+  
+  .site a:hover {
+    color: #cc3333; /* Cor do hover em vermelho */
+    text-decoration: none;
+  }
+  
+  /* Estilos para a lista de links no footer */
+  .footer {
+    padding-left: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap; /* Ajusta para várias linhas em telas menores */
+    justify-content: center; /* Centraliza os itens */
+    width: 100%;
+  }
+  
+  .footer a {
+    margin: 5px;
+    display: flex;
+    color: #fff;
+  }
+  
+  .footer a:active,
+  .footer a:focus,
+  .footer a:hover {
+    color: #cc3333; /* Cor do hover em vermelho */
+    text-decoration: none;
+  }
+  
+  /* Estilo para as redes sociais */
+  .site .social {
+    display: flex;
+    justify-content: center;
+    margin-top: 25px;
+  }
+  .social a {
+    background-color: #eceeef;
+    color: #818a91;
+    font-size: 16px;
+    display: inline-block;
+    line-height: 44px;
+    width: 44px;
+    text-decoration: none;
+    height: 44px;
+    text-align: center;
+    margin-right: 8px;
+    border-radius: 100%;
+    transition: all .2s linear;
+  }
+  
+  .site .social a:hover {
+    color: #fff; /* Cor do texto no hover */
+  }
+  
+  /* Estilos para os ícones de redes sociais */
+  .social a.facebook:hover {
+    background-color: #3b5998;
+  }
+  
+  .social a.instagram:hover {
+    background-color: #e4405f;
+  }
+  
+  .social a.maps:hover {
+    background-color: #4285f4;
+  }
+  
+  .social a.whatsapp:hover {
+    background-color: #25d366;
+  }
+  
+  /* Estilo responsivo para ícones pequenos */
+  .social.size-sm a {
+    line-height: 34px;
+    height: 34px;
+    width: 34px;
+    font-size: 14px;
+  }
+  
+  @media (max-width: 991px) {
+    .site [class^="col-"] {
+      margin-bottom: 30px;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .site {
+      padding: 20px 10px; /* Reduz o padding para telas menores */
+      line-height: normal;
+    }
+  
+    .site .copyright {
+      text-align: center;
+    }
+  
+    .site .social {
+      text-align: center;
+      margin: 15px auto;
+      text-decoration: none;
+    }
+  
+    .social li.title {
+      display: block;
+      margin-right: 0;
+    }
+  
+    .footer {
+      flex-direction: column; /* Ajusta a disposição para coluna em telas menores */
+      align-items: center;
+    }
+  }
+  

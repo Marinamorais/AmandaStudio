@@ -1,0 +1,35 @@
+/* Classe para o card pequeno */
+.smallCard {
+    max-width: 350px; /* Reduz a largura máxima para cards mais estreitos */
+    margin: 0 auto; /* Centraliza o card */
+    text-align: center; /* Alinha o texto ao centro */
+    overflow: hidden; /* Garante que o conteúdo não vaze */
+    box-sizing: border-box; /* Inclui padding e border no tamanho total */
+}
+
+/* Ajuste para a imagem */
+.smallCard img {
+    width: 100%; /* Ajusta a largura da imagem ao card */
+    height: auto; /* Mantém a proporção */
+    object-fit: cover; /* Garante o ajuste adequado da imagem */
+}
+
+/* Estilo para o corpo do card */
+.smallCard .card-body {
+    padding: 8px; /* Reduz o espaçamento interno */
+}
+
+/* Ajuste no espaçamento entre os cards */
+.row {
+    gap: 8px; /* Diminui o espaço entre os cards */
+}
+
+/* Correção para o contêiner pai */
+:root {
+    overflow-x: hidden; /* Evita a barra de rolagem horizontal global */
+}
+
+.title {
+    font-size: 14px;
+    font-weight: 600;
+}

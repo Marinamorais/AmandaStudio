@@ -2,11 +2,43 @@
 
 "use client"; // This line is important
 import React from 'react'; // Import React
-import Header from './components/header/Header';  
+import styles from './page.module.css'; // Import CSS module
+import Header from './components/header/Header';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Carousel from './components/carousel/Carousel';
+import Card from './components/Card/Card';
+import Button from './components/button/Button';
 const Home = () => {
   return (
-    
-    <Header />
+    <>
+      <Header />
+      <div>
+        <Carousel />
+      </div>
+
+      <h2 className={styles.bemvindo}>VOCÊ SONHA, EM TRANSFORMAR OLHARES, REALÇAR A BELEZA NATURAL E DESTACAR A EXPRESSÃO DOS
+        OLHOS?</h2>
+      <h3 className={styles.bemvindo}>Se sim, nosso Curso de Lash Designer é a chave para desbloquear seu potencial e ingressar no
+        mundo fascinante da beleza.</h3>
+      <h2 className={styles.bemvindo}>CONHEÇA NOSSOS CURSOS</h2>
+      <div>
+        <Card />
+      </div>
+
+      <div>
+        <Button />
+      </div>
+       
+       <div className={styles.conheca}>
+         <h2 className={styles.conheca}>Conheça nosso Espaço</h2>
+          <div className={styles.conhecaImg}>
+            <img src="https://i.imgur.com/iaLdgPn.png" alt="Logo AmandaStudio" />
+          </div>
+       </div>
+      
+
+    </>
+
   );
 };
 

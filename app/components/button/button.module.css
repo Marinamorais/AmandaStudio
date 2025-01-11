@@ -1,0 +1,30 @@
+.contato {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px; /* Adiciona margem no topo */
+  }
+  
+  .botaoZap {
+    background-color: #25d366;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    transition: background-color 0.3s;
+    text-decoration: none; /* Remove a linha de link */
+  }
+  
+  .botaoZap:hover {
+    background-color: #128c7e;
+  }
+  
+  .botaoZap svg {
+    font-size: 20px;
+    margin-right: 10px; /* Adiciona um pequeno espaço entre o ícone e o texto */
+  }
+  

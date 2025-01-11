@@ -25,4 +25,30 @@
     height: auto; /* Mantém a proporção da imagem */
     object-fit: cover; /* Garante que a imagem ocupe todo o espaço disponível sem distorcer */
   }
+
+  @media screen and (max-width: 767px) {
+    .conhecaImg {
+      display: flex;
+      flex-direction: column; /* Coloca as imagens uma abaixo da outra */
+      align-items: center; /* Centraliza as imagens horizontalmente */
+      gap: 20px; /* Espaçamento entre as imagens */
+    }
+  
+    .conhecaImg img {
+      width: 190px; /* Tamanho reduzido para dispositivos menores */
+    }
+
+    .bemvindo{
+      font-size: 10px;
+      margin: 1rem;
+    }
+
+    .conheca{
+      font-size: 12px;
+      margin: 1rem;
+      font-weight: 800;
+      
+    }
+  }
+  
   

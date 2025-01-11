@@ -1,6 +1,6 @@
 /* Classe para o card pequeno */
 .smallCard {
-    max-width: 350px; /* Reduz a largura máxima para cards mais estreitos */
+    max-width: 340px; /* Reduz a largura máxima para cards mais estreitos */
     margin: 0 auto; /* Centraliza o card */
     text-align: center; /* Alinha o texto ao centro */
     overflow: hidden; /* Garante que o conteúdo não vaze */
@@ -21,7 +21,7 @@
 
 /* Ajuste no espaçamento entre os cards */
 .row {
-    gap: 8px; /* Diminui o espaço entre os cards */
+    gap: 5px; /* Diminui o espaço entre os cards */
 }
 
 /* Correção para o contêiner pai */

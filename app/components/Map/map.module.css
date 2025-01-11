@@ -1,0 +1,17 @@
+/* Estilos para o mapa */
+.mapContainer {
+    position: relative;
+    width: 100%; /* Garante que o mapa ocupe toda a largura disponível */
+    height: 450px; /* Altura fixa para o mapa */
+    margin-top: 20px; /* Adiciona espaçamento acima do mapa */
+    border: 2px solid #ddd; /* Borda fina para o container */
+    border-radius: 8px; /* Borda arredondada */
+  }
+  
+  /* Responsividade: ajusta a altura do mapa para telas menores */
+  @media (max-width: 768px) {
+    .mapContainer {
+      height: 300px; /* Altura menor para telas pequenas */
+    }
+  }
+  

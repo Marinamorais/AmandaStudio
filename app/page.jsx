@@ -37,7 +37,9 @@ const Home = () => {
           <img src="https://i.imgur.com/nS7R3jO.png" alt="Logo AmandaStudio" />
         </div>
       </div>
+      
 
+      
 
 
     </>

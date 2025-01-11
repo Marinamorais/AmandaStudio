@@ -9,6 +9,8 @@ import Carousel from './components/carousel/Carousel';
 import Card from './components/Card/Card';
 import Button from './components/button/Button';
 import Midiasocial from './components/Midiasocial/Midiasocial';
+import Map from './components/Map/Map';
+import Footer from './components/footer/Footer';
 const Home = () => {
   return (
     <>
@@ -42,8 +44,11 @@ const Home = () => {
        <div>
          <Midiasocial />
        </div>
-
-
+       
+       <div>
+          <Map />
+       </div>
+           <Footer />
     </>
 
   );

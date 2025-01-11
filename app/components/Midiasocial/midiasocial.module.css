@@ -1,0 +1,53 @@
+
+/* Estilo para o container principal */
+.socialMedia {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Título */
+  .socialMediaTitle {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    
+  }
+  
+  /* Container para os ícones */
+  .socialMediaIcons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaço entre os ícones */
+  }
+  
+  /* Estilo para os links dos ícones */
+  .iconLink, .maps {
+    display: inline-block;
+  padding: 10px;
+  border: 2px solid #ccc; /* Borda fina para cada ícone */
+  border-radius: 50%; /* Bordas arredondadas */
+  transition: all 0.3s ease; /* Efeito suave de transição */
+  color: inherit; /* Herda a cor do ícone */
+  }
+  
+  /* Efeito de hover nos ícones */
+  .iconLink:hover, .maps:hover {
+    transform: scale(1.2); /* Aumenta o tamanho do ícone */
+    color: #333; /* Cor ao passar o mouse */
+  }
+  
+  /* Estilo específico para o ícone do Google Maps */
+  .maps {
+    color: #ff0202; /* Cor vermelha */
+  }
+  
+  /* Ajustando os ícones */
+  .iconLink svg, .maps svg {
+    transition: transform 0.3s ease;
+  }
+  
+  /* Efeito no ícone do Google Maps ao passar o mouse */
+  .maps:hover {
+    color: #e60000; /* Cor de hover para o Google Maps */
+  }
+  

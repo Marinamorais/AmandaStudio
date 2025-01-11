@@ -8,6 +8,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Carousel from './components/carousel/Carousel';
 import Card from './components/Card/Card';
 import Button from './components/button/Button';
+import Midiasocial from './components/Midiasocial/Midiasocial';
 const Home = () => {
   return (
     <>
@@ -37,9 +38,10 @@ const Home = () => {
           <img src="https://i.imgur.com/nS7R3jO.png" alt="Logo AmandaStudio" />
         </div>
       </div>
-      
-
-      
+       
+       <div>
+         <Midiasocial />
+       </div>
 
 
     </>

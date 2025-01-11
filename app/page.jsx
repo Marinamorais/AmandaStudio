@@ -28,14 +28,17 @@ const Home = () => {
       <div>
         <Button />
       </div>
-       
-       <div className={styles.conheca}>
-         <h2 className={styles.conheca}>Conheça nosso Espaço</h2>
-          <div className={styles.conhecaImg}>
-            <img src="https://i.imgur.com/iaLdgPn.png" alt="Logo AmandaStudio" />
-          </div>
-       </div>
-      
+
+      <div className={styles.conheca}>
+        <h2 className={styles.conheca}>Conheça nosso Espaço</h2>
+        <div className={styles.conhecaImg}>
+          <img src="https://i.imgur.com/JgKt0cn.png" alt="Logo AmandaStudio" />
+          <img src="https://i.imgur.com/FtLUvtK.png" alt="Logo AmandaStudio" />
+          <img src="https://i.imgur.com/nS7R3jO.png" alt="Logo AmandaStudio" />
+        </div>
+      </div>
+
+
 
     </>
 

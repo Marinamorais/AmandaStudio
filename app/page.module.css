@@ -14,3 +14,15 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+  .conhecaImg {
+    display: flex;
+    justify-content: center; /* Centraliza as imagens horizontalmente */
+    gap: 30px; /* Espaçamento entre as imagens */
+  }
+  
+  .conhecaImg img {
+    width: 400px; /* Defina o tamanho fixo desejado para todas as imagens */
+    height: auto; /* Mantém a proporção da imagem */
+    object-fit: cover; /* Garante que a imagem ocupe todo o espaço disponível sem distorcer */
+  }
+  

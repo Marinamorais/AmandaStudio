@@ -11,10 +11,13 @@ import Button from './components/button/Button';
 import Midiasocial from './components/Midiasocial/Midiasocial';
 import Map from './components/Map/Map';
 import Footer from './components/footer/Footer';
+
 const Home = () => {
   return (
     <>
-      <Header />
+      <Header/>
+          
+   
       <div>
         <Carousel />
       </div>

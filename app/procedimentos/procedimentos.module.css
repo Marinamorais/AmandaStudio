@@ -1,10 +1,65 @@
-/* Garante que o fundo ocupe toda a altura da página */
 .fundo {
-    background: linear-gradient(90deg, #dc9595, #ec6b6b, #ce8080);
-    height: 100vh; /* 100% da altura da janela */
-    width: 100vw; /* 100% da largura da janela */
-    position: absolute; /* Faz com que o fundo fique fixo */
-    top: 0;
-    left: 0;
-    z-index: -1; /* Faz com que o fundo não sobreponha o conteúdo */
+    background: linear-gradient(90deg, #e68989, #ec6b6b, #e38d8d);
+    min-height: 100vh; /* Garante que a altura ocupe a tela inteira */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.cardContainer {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px; /* Espaçamento entre os cards */
+    max-width: 1200px; /* Limita a largura máxima */
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-align: center;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.card:hover {
+    transform: translateY(-10px); /* Eleva o card ao passar o mouse */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
+}
+
+.cardImage {
+    width: 100%;
+    height: 200px;
+    object-fit: contain; /* Exibe a imagem inteira sem cortá-la */
+    border-radius: 8px 8px 0 0;
+   
+}
+
+.cardTitle {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+    margin-top: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.cardTitle:hover {
+    color: #FF6F61; /* Destaca o texto ao passar o mouse */
+}
+
+@media (max-width: 768px) {
+    .cardImage {
+        height: 150px; /* Ajusta o tamanho da imagem para telas menores */
+    }
+
+    .cardTitle {
+        font-size: 1rem; /* Reduz o tamanho do texto em telas menores */
+    }
 }

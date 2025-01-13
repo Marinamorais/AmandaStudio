@@ -5,19 +5,19 @@ import styles from "./sobrancelha.module.css";
 export default function Sombrancelha() {
   const Sombrancelha = [
     {
-      img: "../assets/img/Volume Híbrido.jpg",
+      img: "https://i.imgur.com/Q9O7rN2.png",
       title: "Sem Henna",
       description: "Design + Coloração é uma combinação de técnicas de design de sobrancelha e coloração para criar composições visuais impactantes e esteticamente agradáveis.",
       price: "R$ 35,00",
     },
     {
-      img: "../assets/img/LashLifting.jpg",
+      img: "https://i.imgur.com/dRZPTuz.png",
       title: "Com rena",
       description: "O lash lifting é um procedimento que curva os cílios naturais com produtos químicos, proporcionando um olhar mais aberto e expressivo sem a necessidade de extensões.",
       price: "R$ 50,00",
     },
     {
-      img: "../assets/img/Volume Egípcio.jpg",
+      img: "https://i.imgur.com/BQ57CxK.png",
       title: "Desing + buço",
       description: "Designer de sobrancelha, coloração e buço em apenas um pacote. Ideal para quem deseja realçar o olhar e a expressão facial com um visual harmonioso e equilibrado.",
       price: "R$ 45,00",

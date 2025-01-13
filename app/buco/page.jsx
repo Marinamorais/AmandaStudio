@@ -5,7 +5,7 @@ import styles from "./buco.module.css";
 export default function Buco() {
   const Buco = [
     {
-      img: "../assets/img/Volume Híbrido.jpg",
+      img: "https://i.imgur.com/pDru3IQ.jpeg",
       title: "Buço avulso",
       description: "Buço Avulso: deixe seu rosto ainda mais bonito e sem pelos indesejados.",
       price: "R$ 20,00",

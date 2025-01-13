@@ -1,0 +1,123 @@
+.fundo {
+    background: linear-gradient(90deg, #e68989, #ec6b6b, #e38d8d);
+    padding: 20px;
+    height: 100%; /* Garante que o fundo ocupe 100% da altura */
+    min-height: 100vh; /* Garante que o fundo ocupe pelo menos a altura da tela */
+    display: flex; /* Flexbox para garantir que o conteúdo se ajuste */
+    flex-direction: column; /* Organiza os itens de forma vertical */
+    align-items: center; /* Centraliza o conteúdo horizontalmente */
+    justify-content: center; /* Centraliza o conteúdo verticalmente */
+  }
+  
+  .cardContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Três colunas */
+    gap: 10px; /* Reduzido o espaço entre os cards */
+    justify-items: center; /* Centraliza os cards */
+    margin: 0 auto; /* Centraliza a grade de cards */
+    max-width: 1300px; /* Ajuste para um tamanho fixo de container */
+  }
+  
+  .card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px; /* Aumentado o padding */
+    width: 100%; /* Ajusta os cards para a largura das colunas */
+    max-width: 280px; /* Aumentado a largura máxima dos cards */
+    text-align: center;
+  }
+  
+  .cardImage {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .cardTitle {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .cardDescription {
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .cardPrice {
+    font-size: 16px;
+    color: #c95656;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .observacao {
+    font-size: 12px;
+    color: #333;
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .buttomContainer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    width: 100%; /* Garante que o container ocupe toda a largura */
+    justify-content: center; /* Centraliza o botão */
+  }
+  
+  .buttom {
+    background-color: #e68989;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .buttom:hover {
+    background-color: #ec6b6b;
+  }
+  
+  @media (max-width: 768px) {
+    .cardContainer {
+      grid-template-columns: 1fr; /* Ajusta para uma coluna */
+    }
+  
+    .card {
+      max-width: 100%; /* Ajusta a largura máxima dos cards */
+    }
+  
+    .buttomContainer {
+      flex-direction: column; /* Coloca os botões uma abaixo da outra */
+      align-items: center; /* Centraliza os botões horizontalmente */
+    }
+  
+    .buttom {
+      margin-bottom: 10px; /* Adiciona espaço entre os botões */
+    }
+  
+    .observacao {
+      margin-top: 10px;
+    }
+  
+    .cardTitle {
+      font-size: 16px;
+    }
+  
+    .cardDescription {
+      font-size: 14px;
+    }
+  
+    .cardPrice {
+      font-size: 16px;
+    }
+  }
+  

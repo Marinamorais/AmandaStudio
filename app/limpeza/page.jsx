@@ -34,11 +34,12 @@ export default function Limpeza() {
             <p className={styles.cardPrice}>{item.price}</p>
           </div>
         ))}
-        <div className={styles.buttomContainer}>
-          <button className={styles.buttom} onClick={handleButtonClick}>
-            Voltar para procedimentos
-          </button>
-        </div>
+
+      </div>
+      <div className={styles.buttomContainer}>
+        <button className={styles.buttom} onClick={handleButtonClick}>
+          Voltar para procedimentos
+        </button>
       </div>
     </div>
   );

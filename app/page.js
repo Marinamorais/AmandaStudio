@@ -1,5 +1,3 @@
-// pages/index.js
-
 "use client"; // This line is important
 import React from 'react'; // Import React
 import styles from './page.module.css'; // Import CSS module
@@ -12,21 +10,25 @@ import Midiasocial from './components/Midiasocial/Midiasocial';
 import Map from './components/Map/Map';
 import Footer from './components/footer/Footer';
 
+
 const Home = () => {
   return (
     <>
-      <Header/>
-          
-   
+      <Header />
       <div>
         <Carousel />
       </div>
 
-      <h2 className={styles.bemvindo}>VOCÊ SONHA, EM TRANSFORMAR OLHARES, REALÇAR A BELEZA NATURAL E DESTACAR A EXPRESSÃO DOS
-        OLHOS?</h2>
-      <h3 className={styles.bemvindo}>Se sim, nosso Curso de Lash Designer é a chave para desbloquear seu potencial e ingressar no
-        mundo fascinante da beleza.</h3>
+      <h2 className={styles.bemvindo}>
+        VOCÊ SONHA, EM TRANSFORMAR OLHARES, REALÇAR A BELEZA NATURAL E DESTACAR A EXPRESSÃO DOS
+        OLHOS?
+      </h2>
+      <h3 className={styles.bemvindo}>
+        Se sim, nosso Curso de Lash Designer é a chave para desbloquear seu potencial e ingressar no
+        mundo fascinante da beleza.
+      </h3>
       <h2 className={styles.bemvindo}>CONHEÇA NOSSOS CURSOS</h2>
+
       <div>
         <Card />
       </div>
@@ -43,17 +45,18 @@ const Home = () => {
           <img src="https://i.imgur.com/nS7R3jO.png" alt="Logo AmandaStudio" />
         </div>
       </div>
-       
-       <div>
-         <Midiasocial />
-       </div>
-       
-       <div>
-          <Map />
-       </div>
-           <Footer />
-    </>
 
+
+      <div>
+        <Midiasocial />
+      </div>
+
+      <div>
+        <Map />
+      </div>
+      
+      <Footer />
+    </>
   );
 };
 

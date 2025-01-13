@@ -19,7 +19,7 @@ const Footer = () => {
               <h6>Categorias</h6>
               <ul className={styles.footer}>
                 <li><NavLink texto="Home" rota="/" /></li>
-                <li><NavLink texto="SobreMim" rota="/sobremim" /></li>
+                <li><NavLink texto="SobreMim" rota="/sobre" /></li>
                 <li><NavLink texto="Procedimentos" rota="/procedimentos" /></li>
                 <li><NavLink texto="Agenda" rota="/agenda" /></li>
               </ul>
@@ -31,7 +31,7 @@ const Footer = () => {
           <div className={styles.row}>
             <div className={styles.col}>
               <p className={styles.copyright}>Copyright &copy; 2023 All Rights Reserved by
-                <a href="./sobremim">Amanda Scaranello</a>.
+                <a href="./sobre">Amanda Scaranello</a>.
               </p>
             </div>
 

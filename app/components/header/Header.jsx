@@ -39,10 +39,10 @@ const Header = () => {
                         </div>
                         <div className={styles.DAbout}>
                             <li>
-                                <NavLink texto={< RiAccountCircleFill size={24} />} rota="/sobremim" />
+                                <NavLink texto={< RiAccountCircleFill size={24} />} rota="/sobre" />
                             </li>
                             <p className={styles.pzin}>
-                                <NavLink texto={"Sobremim"} rota={"/sobremim"} />
+                                <NavLink texto={"Sobremim"} rota={"/sobre"} />
                             </p>
                         </div>
                         <div className={styles.DCharacter}>

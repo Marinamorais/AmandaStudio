@@ -1,5 +1,6 @@
 import styles from "./sobre.module.css";
 import Header from "../components/header/Header";
+import Footer from "../components/footer/Footer";
 
 export default function Sobre() {
     return (
@@ -31,6 +32,9 @@ export default function Sobre() {
                     </div>
                 </div>
             </div>
+            <>
+             <Footer />
+            </>
         </>
     );
 }

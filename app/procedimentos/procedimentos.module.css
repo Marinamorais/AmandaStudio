@@ -1,0 +1,10 @@
+/* Garante que o fundo ocupe toda a altura da página */
+.fundo {
+    background: linear-gradient(90deg, #dc9595, #ec6b6b, #ce8080);
+    height: 100vh; /* 100% da altura da janela */
+    width: 100vw; /* 100% da largura da janela */
+    position: absolute; /* Faz com que o fundo fique fixo */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Faz com que o fundo não sobreponha o conteúdo */
+}

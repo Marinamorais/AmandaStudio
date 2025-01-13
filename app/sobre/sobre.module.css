@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+.containerprincipal {
+    position: relative;
+    text-align: center;
+    margin: 60px auto;
+}
+
+.Quemsou {
+    display: block;
+    margin: 30px auto 0;
+    border-radius: 50%;
+    width: 300px;  /* Ajustado para telas menores */
+    height: 300px; /* Ajustado para telas menores */
+}
+
+.containersegundario {
+    position: relative;
+    text-align: center;
+    margin: 40px auto;
+    max-width: 900px;
+}
+
+.amanda {
+    font-family: 'Rubik', sans-serif;
+    font-size: 22px; /* Ajustado para dispositivos móveis */
+    color: #d25252;
+}
+
+.containerterciario {
+    text-align: center;
+    margin: 40px auto;
+    margin-bottom: 60px;
+    max-width: 900px;
+}
+
+.texto {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px; /* Tamanho reduzido para telas pequenas */
+    line-height: 1.5;
+    color: #000000;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.divisoria {
+    border-top: 1px solid #d25252;
+    margin: 20px auto;
+    width: 50%;
+}
+
+.profissao {
+    font-family: 'Rubik', sans-serif;
+    font-size: 10px; /* Ajuste da fonte para telas pequenas */
+    color: #000000;
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px; /* Espaçamento entre os cards */
+}
+
+.cardprofissao {
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(184, 35, 99, 0.1);
+    border-color: #da5757;
+    border-style: solid;
+    margin-top: 10px;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+    max-width: 250px;
+    margin: 5px;
+}
+
+@media (max-width: 768px) {
+    .containerprincipal, .containersegundario, .containerterciario {
+        max-width: 100%;
+        padding: 0 10px; /* Padding para não colar nas bordas */
+    }
+
+    .cardprofissao {
+        width: 100%; /* Cada card ocupa 100% da largura */
+        margin: 10px 0; /* Ajuste de margens entre os cards */
+        padding: 10px; /* Menos padding para telas pequenas */
+    }
+
+    .Quemsou {
+        width: 250px; /* Ajuste do tamanho da imagem */
+        height: 250px; /* Ajuste do tamanho da imagem */
+    }
+
+    .amanda {
+        font-size: 20px; /* Ajuste do tamanho da fonte para telas pequenas */
+    }
+
+    .texto {
+        font-size: 14px; /* Tamanho menor para o texto em dispositivos móveis */
+    }
+
+    .profissao {
+        font-size: 10px; /* Ajuste do tamanho da fonte para telas pequenas */
+
+    }
+}
+
+@media (min-width: 768px) {
+    .cardprofissao {
+        width: 30%; /* Ajuste para 30% da largura para telas grandes */
+    }
+
+    .profissao {
+        flex-wrap: nowrap; /* Impede que os cards quebrem para a linha */
+        font-size: 10px; /* Ajuste do tamanho da fonte para telas grandes */
+    }
+}

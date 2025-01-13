@@ -8,7 +8,7 @@ export default function Sobre() {
             <Header />
 
             <div className={styles.containerprincipal}>
-                <img className={styles.Quemsou} src="https://i.imgur.com/iaLdgPn.png" alt="logo" />
+                <img className={styles.Quemsou} src="https://i.imgur.com/p4g2CrT.jpeg" alt="logo" />
             </div>
 
             <div className={styles.containersegundario}>

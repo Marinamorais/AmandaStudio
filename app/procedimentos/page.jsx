@@ -2,6 +2,7 @@
 import styles from "./procedimentos.module.css";
 import Header from "../components/header/Header";
 import Link from "next/link";
+import Footer from "../components/footer/Footer";
 
 export default function Procedimentos() {
     const procedimentos = [
@@ -46,6 +47,7 @@ export default function Procedimentos() {
                     ))}
                 </div>
             </div>
+             <Footer />
         </div>
     );
 }

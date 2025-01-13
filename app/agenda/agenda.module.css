@@ -2,8 +2,8 @@
 .container {
     max-width: 1200px; /* Largura máxima */
     width: 100%; /* Largura total do container */
-    padding: 40px; /* Espaçamento interno */
-    margin: 0 auto; /* Centraliza horizontalmente */
+    padding: 50px; /* Espaçamento interno */
+    margin: 10px auto; /* Centraliza horizontalmente */
 }
 
 /* Estilo para o título */
@@ -12,7 +12,7 @@
     color: #C95656; /* Cor do título */
     text-align: center; /* Alinhar o texto ao centro */
     margin-bottom: 20px; /* Espaço abaixo do título */
-    margin-top: 95px;
+    margin-top: 20px;
 }
 
 /* Estilo para a seção de horários */
@@ -24,7 +24,7 @@
     text-align: center; /* Alinhar o texto ao centro */
     width: 100%; /* Garante que o conteúdo ocupe a largura total */
     max-width: 800px; /* Limita a largura máxima da seção */
-    margin: 30px auto; /* Centraliza e dá espaço em cima e embaixo */
+    margin: 20px auto; /* Centraliza e dá espaço em cima e embaixo */
 }
 
 /* Estilo para os parágrafos dentro da seção de horários */

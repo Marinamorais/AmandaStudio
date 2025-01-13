@@ -1,7 +1,7 @@
 "use client";
 import styles from "./agenda.module.css";
 import Header from "../components/header/Header";
-import Button from "../components/button/Button"; // Corrigi o nome do componente para Button
+import Footer from "../components/footer/Footer";
 
 export default function Agenda() {
   return (
@@ -16,7 +16,9 @@ export default function Agenda() {
         <p>Sexta-feira: 09:00 às 18:00</p>
         <p>Sábado: 09:00 às 13:00</p>
       </div>
-      <Button /> {/* Componente Button */}
+      <div>
+        <Footer /> {/* Componente Footer */}
+      </div>
     </div>
   );
 }

@@ -25,10 +25,10 @@ export default function Sobre() {
                 <hr className={styles.divisoria} />
                 <div className={styles.profissao}>
                     <div className={styles.cardprofissao}>
-                        <h1>Bacharel em Ciências Contábeis</h1>
+                        <h1 className={styles.texto02}>Bacharel em Ciências Contábeis</h1>
                     </div>
                     <div className={styles.cardprofissao}>
-                        <h1>Empresária e Esteticista</h1>
+                        <h1 className={styles.texto02}>Empresária e Esteticista</h1>
                     </div>
                 </div>
             </div>

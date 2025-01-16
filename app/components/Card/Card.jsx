@@ -8,7 +8,7 @@ function GridExample() {
   const cardData = [
     {
       title: 'Cuidados Essenciais e Manutenção Eficiente',
-      imgSrc: 'https://i.imgur.com/bisUOEZ.png', // Tamanho da imagem ajustado
+      imgSrc: 'https://i.imgur.com/bisUOEZ.png',
     },
     {
       title: 'Métodos Inovadores para Aplicações Perfeitas',
@@ -21,18 +21,20 @@ function GridExample() {
   ];
 
   return (
-    <Row xs={1} md={3} className="g-2"> {/* Menor espaçamento com `g-2` */}
-      {cardData.map((card, idx) => (
-        <Col key={idx}>
-          <Card className={styles.smallCard}> {/* Usa classe do módulo CSS */}
-            <Card.Img variant="top" src={card.imgSrc} />
-            <Card.Body>
-              <Card.Title className={styles.title}>{card.title}</Card.Title>
-            </Card.Body>
-          </Card>
-        </Col>
-      ))}
-    </Row>
+    <div className={styles.raiz}>
+      <Row xs={1} md={3} className="g-3"> {/* Define maior espaçamento entre os cards */}
+        {cardData.map((card, idx) => (
+          <Col key={idx}>
+            <Card className={styles.smallCard}>
+              <Card.Img variant="top" src={card.imgSrc} />
+              <Card.Body>
+                <Card.Title className={styles.title}>{card.title}</Card.Title>
+              </Card.Body>
+            </Card>
+          </Col>
+        ))}
+      </Row>
+    </div>
   );
 }
 

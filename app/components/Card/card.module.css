@@ -1,35 +1,21 @@
-/* Classe para o card pequeno */
 .smallCard {
-    max-width: 340px; /* Reduz a largura máxima para cards mais estreitos */
-    margin: 0 auto; /* Centraliza o card */
-    text-align: center; /* Alinha o texto ao centro */
-    overflow: hidden; /* Garante que o conteúdo não vaze */
-    box-sizing: border-box; /* Inclui padding e border no tamanho total */
-}
-
-/* Ajuste para a imagem */
-.smallCard img {
-    width: 100%; /* Ajusta a largura da imagem ao card */
-    height: auto; /* Mantém a proporção */
-    object-fit: cover; /* Garante o ajuste adequado da imagem */
-}
-
-/* Estilo para o corpo do card */
-.smallCard .card-body {
-    padding: 8px; /* Reduz o espaçamento interno */
-}
-
-/* Ajuste no espaçamento entre os cards */
-.row {
-    gap: 5px; /* Diminui o espaço entre os cards */
-}
-
-/* Correção para o contêiner pai */
-:root {
-    overflow-x: hidden; /* Evita a barra de rolagem horizontal global */
-}
-
-.title {
-    font-size: 14px;
-    font-weight: 600;
-}
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 350px; /* Define uma largura máxima menor para os cards */
+    margin: 0 auto; /* Centraliza os cards horizontalmente */
+    overflow: hidden; /* Garante que não haverá barra de rolagem dentro do card */
+  }
+  
+  .title {
+    font-size: 1rem; /* Diminui um pouco o tamanho do texto */
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  /* Se precisar de variáveis de cor, use classes específicas */
+  .raiz {
+    --cor-principal: #c95656; /* Exemplo de variável */
+    overflow: hidden; /* Remove a barra de rolagem do contêiner */
+    padding: 10px; /* Adiciona um espaçamento interno para o layout */
+  }
+  

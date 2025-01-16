@@ -3,7 +3,7 @@ import React from 'react'; // Import React
 import styles from './page.module.css'; // Import CSS module
 import Header from './components/header/Header';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Carousel from './components/carousel/Carousel';
+import Carousel from './components/Carousel/Carousel';
 import Card from './components/Card/Card';
 import Button from './components/button/Button';
 import Midiasocial from './components/Midiasocial/Midiasocial';

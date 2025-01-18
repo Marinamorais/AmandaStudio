@@ -2,6 +2,7 @@
 import styles from "./agenda.module.css";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
+import Midiasocial from '../../components/Midiasocial/Midiasocial';
 
 export default function Agenda() {
   return (
@@ -15,6 +16,9 @@ export default function Agenda() {
         <p>Quinta-feira: 09:00 às 18:00</p>
         <p>Sexta-feira: 09:00 às 18:00</p>
         <p>Sábado: 09:00 às 13:00</p>
+      </div>
+      <div>
+        <Midiasocial /> {/* Componente Midiasocial */}
       </div>
       <div>
         <Footer /> {/* Componente Footer */}

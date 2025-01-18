@@ -2,7 +2,7 @@
 import styles from "./agenda.module.css";
 import Header from "../components/header/Header";
 import Footer from "../components/footer/Footer";
-import Midiasocial from '../../components/Midiasocial/Midiasocial';
+import Midiasocial from '../components/Midiasocial/Midiasocial';
 
 export default function Agenda() {
   return (

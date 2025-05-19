@@ -9,7 +9,7 @@
     gap: 10px; /* Reduzido o espaço entre os cards */
     justify-items: center; /* Centraliza os cards */
     margin: 0 auto; /* Centraliza a grade de cards */
-    max-width: 1300px; /* Ajuste para um tamanho fixo de container */
+    max-width: 1000px; /* Ajuste para um tamanho fixo de container */
   }
   
   .card {

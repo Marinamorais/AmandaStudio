@@ -52,3 +52,18 @@
         max-width: 90%;
     }
 }
+
+.textoContainer {
+    display: flex; /* Usar flexbox para layout */
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    margin-top: 20px; /* Espaço acima do container de texto */  
+}
+
+.texto{
+    font-size: 14px; /* Tamanho da fonte */
+    color: #ef5050; /* Cor do texto */
+    text-align: center; /* Alinhar o texto ao centro */
+    margin: 0 10px; /* Espaço lateral entre os textos */
+}
+

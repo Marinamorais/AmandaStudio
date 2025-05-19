@@ -8,13 +8,13 @@ export default function Cilios() {
       img: "https://i.imgur.com/uDmxMQS.png",
       title: "Volume Híbrido",
       description: "Combina fios individuais com fãs volumosos, criando um olhar dramático e elegante.",
-      price: "R$ 190,00",
+    
     },
     {
       img: "https://i.imgur.com/wFwEXJv.png",
       title: "Lash Lifting",
       description: "Curvatura dos cílios naturais, proporcionando um olhar mais aberto e expressivo.",
-      price: "R$ 130,00",
+      
     },
     {
       img: "https://i.imgur.com/n71NKfZ.png",
@@ -26,31 +26,31 @@ export default function Cilios() {
       img: "https://i.imgur.com/lfwZXQG.pnghttps://i.imgur.com/lfwZXQG.png",
       title: "Fio a Fio",
       description: "Extensões coladas individualmente, proporcionando um olhar natural e volumoso.",
-      price: "R$ 130,00",
+     
     },
     {
       img: "https://i.imgur.com/dANQRzt.png",
       title: "Volume Brasileiro",
       description: "Combina o efeito volume com o fio a fio, usando extensões em forma de Y.",
-      price: "R$ 140,00",
+      
     },
     {
       img: "https://i.imgur.com/G009fZp.png",
       title: "Volume Inglês (5D)",
       description: "Cinco fios ultrafinos em um cílio natural para um efeito volumoso e intenso.",
-      price: "R$ 170,00",
+      
     },
     {
       img: "https://i.imgur.com/q8Qkez6.png",
       title: "Volume Artístico",
       description: "Extensões ultrafinas criam um visual intenso e glamoroso.",
-      price: "R$ 185,00",
+      
     },
     {
       img: "https://i.imgur.com/HfQFVyt.png",
       title: "Volume Luxo (6D)",
       description: "Seis extensões ultrafinas para um olhar volumoso e cheio de dimensão.",
-      price: "R$ 185,00",
+  
     },
   ];
   
@@ -67,7 +67,6 @@ export default function Cilios() {
             <img src={item.img} alt={item.title} className={styles.cardImage} />
             <h3 className={styles.cardTitle}>{item.title}</h3>
             <p className={styles.cardDescription}>{item.description}</p>
-            <p className={styles.cardPrice}>{item.price}</p>
           </div>
         ))}
       </div>

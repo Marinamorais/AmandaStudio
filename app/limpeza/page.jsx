@@ -8,13 +8,13 @@ export default function Limpeza() {
       img: "https://i.imgur.com/9hWWaJd.png",
       title: "Limpeza com Extração",
       description: "A limpeza de pele é um procedimento facial que visa remover impurezas, oleosidade e células mortas, promovendo uma pele mais saudável e revitalizada.",
-      price: "R$ 130,00",
+     
     },
     {
       img: "https://i.imgur.com/MEWzuDd.png",
       title: "Limpeza hidratante",
       description: "A limpeza de pele com extração é um procedimento que, além de limpar a pele, realiza a remoção de cravos e espinhas, garantindo uma pele mais lisa e saudável.",
-      price: "R$ 110,00",
+     
     },
 
   ];
@@ -31,7 +31,6 @@ export default function Limpeza() {
             <img src={item.img} alt={item.title} className={styles.cardImage} />
             <h3 className={styles.cardTitle}>{item.title}</h3>
             <p className={styles.cardDescription}>{item.description}</p>
-            <p className={styles.cardPrice}>{item.price}</p>
           </div>
         ))}
 

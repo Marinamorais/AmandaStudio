@@ -18,7 +18,14 @@ export default function Agenda() {
         <p>Sábado: 09:00 às 13:00</p>
       </div>
       <div>
-        <Midiasocial /> {/* Componente Midiasocial */}
+       <div className={styles.textoContainer}>
+        <p className={styles.texto}>
+          Atendimento somente com horário agendado.
+        </p>
+       </div>
+       <div className={styles.buttomContainer}>
+        <Midiasocial /> {/* Componente Midiasocial */} 
+       </div>
       </div>
       <div>
         <Footer /> {/* Componente Footer */}

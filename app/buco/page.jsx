@@ -8,7 +8,7 @@ export default function Buco() {
       img: "https://i.imgur.com/pDru3IQ.jpeg",
       title: "Buço avulso",
       description: "Buço Avulso: deixe seu rosto ainda mais bonito e sem pelos indesejados.",
-      price: "R$ 20,00",
+   
     },
 
   ];
@@ -26,7 +26,7 @@ export default function Buco() {
             <img src={item.img} alt={item.title} className={styles.cardImage} />
             <h3 className={styles.cardTitle}>{item.title}</h3>
             <p className={styles.cardDescription}>{item.description}</p>
-            <p className={styles.cardPrice}>{item.price}</p>
+    
           </div>
         ))}
         <div className={styles.buttomContainer}>
